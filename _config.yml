@@ -23,7 +23,7 @@ repository               : "nazi96/nazi96.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Nazanin Amini"
   pronouns         : # example: "she/her"
   bio              : "PhD student in Computer Science at UT San Antonio researching diffusion models and vision-language integration for controllable generation."
