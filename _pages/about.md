@@ -7,57 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-<style>
-.home-grid {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  margin-top: 1rem;
-}
-.home-col {
-  flex: 1;
-}
-.home-photo {
-  width: 100%;
-  max-width: 320px;
-  border-radius: 8px;
-}
-.home-links {
-  margin-top: 0.8rem;
-  font-size: 0.95rem;
-}
-.pub-card {
-  display: flex;
-  gap: 1.25rem;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.25rem;
-  border-bottom: 1px solid #e8e8e8;
-}
-.pub-thumb {
-  width: 150px;
-  height: 95px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-.pub-meta {
-  flex: 1;
-}
-@media (max-width: 860px) {
-  .home-grid,
-  .pub-card {
-    flex-direction: column;
-  }
-  .pub-thumb {
-    width: 100%;
-    height: auto;
-    max-width: 320px;
-  }
-}
-</style>
+<link rel="stylesheet" href="/assets/css/homepage-custom.css">
 
 <div class="home-grid">
   <div class="home-col">
-    <img class="home-photo" src="/images/profile.jpg" alt="Nazanin Amini profile photo">
+    <img class="home-photo" src="/images/profile.jpg" alt="Portrait of Nazanin Amini">
     <p class="home-links">
       <a href="mailto:nazanin.amini@utsa.edu">Email</a> /
       <a href="/files/CV_Nazanin_Amini.pdf">CV</a> /
@@ -89,7 +43,7 @@ redirect_from:
 ## Selected publications
 
 <div class="pub-card">
-  <img class="pub-thumb" src="/images/500x300.png" alt="Blue abstract placeholder graphic for publication card">
+  <img class="pub-thumb" src="/images/500x300.png" alt="">
   <div class="pub-meta">
     <p><strong>Paper Title Number 4</strong></p>
     <p>GitHub Journal of Bugs, 2024</p>
@@ -98,7 +52,7 @@ redirect_from:
 </div>
 
 <div class="pub-card">
-  <img class="pub-thumb" src="/images/editing-talk.png" alt="Screenshot from an academic talk slide">
+  <img class="pub-thumb" src="/images/editing-talk.png" alt="">
   <div class="pub-meta">
     <p><strong>Paper Title Number 3</strong></p>
     <p>Journal 1, 2015</p>
@@ -107,7 +61,7 @@ redirect_from:
 </div>
 
 <div class="pub-card">
-  <img class="pub-thumb" src="/images/bio-photo.jpg" alt="Portrait photo used as a publication placeholder image">
+  <img class="pub-thumb" src="/images/bio-photo.jpg" alt="">
   <div class="pub-meta">
     <p><strong>Paper Title Number 2</strong></p>
     <p>Journal 1, 2010</p>

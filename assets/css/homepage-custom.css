@@ -1,0 +1,53 @@
+.home-grid {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.home-col {
+  flex: 1;
+}
+
+.home-photo {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 8px;
+}
+
+.home-links {
+  margin-top: 0.8rem;
+  font-size: 0.95rem;
+}
+
+.pub-card {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.pub-thumb {
+  width: 150px;
+  height: 95px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.pub-meta {
+  flex: 1;
+}
+
+@media (max-width: 860px) {
+  .home-grid,
+  .pub-card {
+    flex-direction: column;
+  }
+
+  .pub-thumb {
+    width: 100%;
+    height: auto;
+    max-width: 320px;
+  }
+}
