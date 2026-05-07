@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<link rel="stylesheet" href="/assets/css/homepage-custom.css">
-
 <div class="home-grid">
   <div class="home-col">
     <img class="home-photo" src="/images/profile.jpg" alt="Portrait of Nazanin Amini">
@@ -43,7 +41,7 @@ redirect_from:
 ## Selected publications
 
 <div class="pub-card">
-  <img class="pub-thumb" src="/images/500x300.png" alt="">
+  <img class="pub-thumb" src="/images/500x300.png" alt="Visualization for Paper Title Number 4">
   <div class="pub-meta">
     <p><strong>Paper Title Number 4</strong></p>
     <p>GitHub Journal of Bugs, 2024</p>
@@ -52,7 +50,7 @@ redirect_from:
 </div>
 
 <div class="pub-card">
-  <img class="pub-thumb" src="/images/editing-talk.png" alt="">
+  <img class="pub-thumb" src="/images/editing-talk.png" alt="Talk slide image for Paper Title Number 3">
   <div class="pub-meta">
     <p><strong>Paper Title Number 3</strong></p>
     <p>Journal 1, 2015</p>
@@ -61,7 +59,7 @@ redirect_from:
 </div>
 
 <div class="pub-card">
-  <img class="pub-thumb" src="/images/bio-photo.jpg" alt="">
+  <img class="pub-thumb" src="/images/bio-photo.jpg" alt="Illustrative placeholder image for Paper Title Number 2">
   <div class="pub-meta">
     <p><strong>Paper Title Number 2</strong></p>
     <p>Journal 1, 2010</p>
