@@ -89,7 +89,7 @@ redirect_from:
 ## Selected publications
 
 <div class="pub-card">
-  <img class="pub-thumb" src="/images/profile.jpg" alt="Publication placeholder image">
+  <img class="pub-thumb" src="/images/500x300.png" alt="Publication thumbnail image">
   <div class="pub-meta">
     <p><strong>Paper Title Number 4</strong></p>
     <p>GitHub Journal of Bugs, 2024</p>
@@ -98,7 +98,7 @@ redirect_from:
 </div>
 
 <div class="pub-card">
-  <img class="pub-thumb" src="/images/profile.jpg" alt="Publication placeholder image">
+  <img class="pub-thumb" src="/images/editing-talk.png" alt="Publication thumbnail image">
   <div class="pub-meta">
     <p><strong>Paper Title Number 3</strong></p>
     <p>Journal 1, 2015</p>
@@ -107,7 +107,7 @@ redirect_from:
 </div>
 
 <div class="pub-card">
-  <img class="pub-thumb" src="/images/profile.jpg" alt="Publication placeholder image">
+  <img class="pub-thumb" src="/images/bio-photo.jpg" alt="Publication thumbnail image">
   <div class="pub-meta">
     <p><strong>Paper Title Number 2</strong></p>
     <p>Journal 1, 2010</p>
