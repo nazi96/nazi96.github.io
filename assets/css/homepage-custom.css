@@ -111,3 +111,18 @@
     width: 100%;
   }
 }
+
+/* Homepage has no sidebar, so let its content use the full width of #main */
+#main:has(.home-grid) .page {
+  float: none;
+  width: 100%;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 861px) {
+  .home-grid .home-col:first-child {
+    flex: 0 0 320px;
+  }
+}
