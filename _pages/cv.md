@@ -7,4 +7,6 @@ redirect_from:
   - /resume
 ---
 
-You can download my full CV as a PDF [here](/files/Nazanin_resume.pdf).
+<p><a href="/files/Nazanin_resume.pdf" target="_blank" rel="noopener">Open my CV as a PDF</a></p>
+
+<iframe class="cv-embed" src="/files/Nazanin_resume.pdf" title="Nazanin Amini CV"></iframe>

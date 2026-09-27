@@ -135,3 +135,10 @@
     max-width: min(94vw, 1800px);
   }
 }
+
+.cv-embed {
+  width: 100%;
+  height: 85vh;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+}
