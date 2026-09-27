@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Nazanin Amini"
 title_separator          : "-"
 name                     : &name "Nazanin Amini"
-description              : &description "Nazanin Amini's academic portfolio - PhD student in Computer Science at UT San Antonio, researching diffusion models and vision-language integration."
+description              : &description "Nazanin Amini's academic portfolio - PhD student in Computer Science at UT San Antonio, researching human-scene interaction (HSI) motion generation."
 url                      : https://nazi96.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile-photo.jpg"
   name             : "Nazanin Amini"
   pronouns         : # example: "she/her"
-  bio              : "PhD student in Computer Science at UT San Antonio researching diffusion models and vision-language integration for controllable generation."
+  bio              : "PhD student in Computer Science at UT San Antonio researching human-scene interaction (HSI) motion generation."
   location         : "San Antonio, TX, USA"
   employer         : "University of Texas at San Antonio"
   uri              : # URL
