@@ -23,20 +23,22 @@ redirect_from:
       I’m a Ph.D. student in Computer Science at the <a href="https://www.utsa.edu/">University of Texas at San Antonio</a>,
       advised by <a href="https://klab.cs.utsa.edu/">Dr. Kevin Desai</a> in the
       <a href="https://utsa-virlab.github.io/">Vision and Immersive Realities Lab (VIRLab)</a>.
-      My research focuses on <strong>human-scene interaction (HSI) motion generation</strong>:
-      generating realistic human motion that responds to the 3D environment around it,
-      such as sitting on a chair, walking around obstacles, or reaching for objects.
+      I work on <strong>human-scene interaction (HSI) motion generation</strong>: generating realistic human motion
+      that is grounded in the 3D scene around it, for applications in VR/AR, animation, and embodied AI.
     </p>
     <p>
-      My work builds on diffusion models for controllable motion synthesis. In
-      <a href="https://utsa-virlab.github.io/MoSAIC/">MoSAIC</a>, I developed a latent diffusion framework that transfers
-      motion style to selected body parts while preserving the rest of the movement. I also contributed to
-      <a href="https://utsa-virlab.github.io/CLOTH-HUGS/">Cloth-HUGS</a>, a Gaussian Splatting method for
-      real-time rendering of clothed humans.
+      My research uses diffusion models for controllable motion synthesis. In
+      <a href="https://utsa-virlab.github.io/MoSAIC/">MoSAIC</a>, my first-author work, I developed a latent diffusion
+      framework that edits the motion of selected body parts while preserving the rest of the movement.
+      I’m now extending this toward scene-aware motion, focusing on <strong>dynamic scene interaction</strong>,
+      <strong>affordance-driven generation</strong>, and <strong>text-conditioned HSI generation</strong>.
+      I also contributed to <a href="https://utsa-virlab.github.io/CLOTH-HUGS/">Cloth-HUGS</a>, a Gaussian Splatting
+      method for real-time rendering of clothed humans.
     </p>
     <p>
       Before my Ph.D., I earned an M.Sc. in Electrical Engineering from
-      <a href="https://shirazu.ac.ir/en">Shiraz University</a>, working on background subtraction for video analysis.
+      <a href="https://shirazu.ac.ir/en">Shiraz University</a>, where I worked on deep-learning-based background
+      subtraction for video.
     </p>
     <p>
       I’m open to research collaborations and internships, so feel free to reach out by email.
