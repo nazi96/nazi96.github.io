@@ -11,14 +11,13 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-<!-- Show only preprints and make their links point to Google Scholar -->
-{% assign gs = site.author.googlescholar %}
-{% for post in site.publications reversed %}
-  {% if post.category == 'preprints' %}
-    {% include archive-single.html override_link=gs %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% assign current_year = "" %}
+{% for pub in pubs %}
+  {% assign year = pub.date | date: "%Y" %}
+  {% if year != current_year %}
+    <h2>{{ year }}</h2>
+    {% assign current_year = year %}
   {% endif %}
+  {% include pub-card.html pub=pub %}
 {% endfor %}
-
-
-

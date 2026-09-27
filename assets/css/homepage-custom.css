@@ -20,34 +20,94 @@
   font-size: 0.95rem;
 }
 
-.pub-card {
+.citation {
   display: flex;
-  gap: 1.25rem;
   margin-bottom: 1.5rem;
-  padding-bottom: 1.25rem;
-  border-bottom: 1px solid #e8e8e8;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: var(--global-bg-color);
+  overflow: hidden;
 }
 
-.pub-thumb {
-  width: 150px;
-  height: 95px;
-  object-fit: cover;
-  border-radius: 6px;
+.citation-image {
+  flex-shrink: 0;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background: #fff;
 }
 
-.pub-meta {
+.citation-image img {
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.citation-text {
   flex: 1;
+  min-width: 0;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.citation-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+  text-decoration: none;
+}
+
+.citation-authors {
+  font-size: 0.92rem;
+}
+
+.citation-details {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}
+
+.citation-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.citation-button {
+  display: inline-block;
+  padding: 2px 12px;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.citation-bibtex summary {
+  list-style: none;
+}
+
+.citation-bibtex summary::-webkit-details-marker {
+  display: none;
+}
+
+.citation-bibtex pre {
+  margin-top: 8px;
+  font-size: 0.75rem;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 @media (max-width: 860px) {
   .home-grid,
-  .pub-card {
+  .citation {
     flex-direction: column;
   }
 
-  .pub-thumb {
+  .citation-image {
     width: 100%;
-    height: auto;
-    max-width: 320px;
   }
 }

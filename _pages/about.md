@@ -48,20 +48,9 @@ redirect_from:
 
 ## Publications
 
-<div class="pub-card">
-  <div class="pub-meta">
-    <p><strong>MoSAIC: Aligned Intervention Supervision for Part-Local Motion Style Transfer</strong></p>
-    <p><strong>Nazanin Amini</strong>, Kevin Desai</p>
-    <p><em>arXiv preprint</em>, 2026</p>
-    <p><a href="https://arxiv.org/abs/2607.26304">arXiv</a> / <a href="https://arxiv.org/pdf/2607.26304">PDF</a></p>
-  </div>
-</div>
-
-<div class="pub-card">
-  <div class="pub-meta">
-    <p><strong>CLOTH-HUGS: Cloth Aware Human Gaussian Splatting</strong></p>
-    <p>Sadia Mubashshira, <strong>Nazanin Amini</strong>, Kevin Desai</p>
-    <p><em>arXiv preprint</em>, 2026</p>
-    <p><a href="https://arxiv.org/abs/2604.15875">arXiv</a> / <a href="https://arxiv.org/pdf/2604.15875">PDF</a></p>
-  </div>
+<div class="pub-list" markdown="0">
+{%- assign pubs = site.publications | sort: "date" | reverse -%}
+{%- for pub in pubs -%}
+{% include pub-card.html pub=pub %}
+{%- endfor -%}
 </div>

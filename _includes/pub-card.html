@@ -1,0 +1,26 @@
+{%- assign pub = include.pub -%}
+{%- assign link = pub.projecturl | default: pub.arxivurl | default: pub.paperurl -%}
+<div class="citation">
+  <a href="{{ link }}" class="citation-image" aria-label="{{ pub.title }}">
+    <img src="{{ pub.image | default: '/images/500x300.png' }}" alt="{{ pub.title }}" loading="lazy">
+  </a>
+  <div class="citation-text">
+    <a href="{{ link }}" class="citation-title">{{ pub.title }}</a>
+    <div class="citation-authors">{{ pub.authors }}</div>
+    <div class="citation-details">
+      <span class="citation-publisher">{{ pub.venue }}</span> &middot;
+      <span class="citation-date">{{ pub.date | date: "%d %b %Y" }}</span>
+    </div>
+    <div class="citation-links">
+      {% if pub.projecturl %}<a class="citation-button" href="{{ pub.projecturl }}">Project page</a>{% endif %}
+      {% if pub.arxivurl %}<a class="citation-button" href="{{ pub.arxivurl }}">arXiv</a>{% endif %}
+      {% if pub.paperurl %}<a class="citation-button" href="{{ pub.paperurl }}">PDF</a>{% endif %}
+    </div>
+    {% if pub.bibtex %}
+    <details class="citation-bibtex">
+      <summary class="citation-button">BibTeX</summary>
+      <pre>{{ pub.bibtex }}</pre>
+    </details>
+    {% endif %}
+  </div>
+</div>
