@@ -1,9 +1,11 @@
 {%- assign pub = include.pub -%}
 {%- assign link = pub.projecturl | default: pub.arxivurl | default: pub.paperurl -%}
 <div class="citation">
+  {% if pub.image %}
   <a href="{{ link }}" class="citation-image" aria-label="{{ pub.title }}">
-    <img src="{{ pub.image | default: '/images/500x300.png' }}" alt="{{ pub.title }}" loading="lazy">
+    <img src="{{ pub.image }}" alt="{{ pub.title }}" loading="lazy">
   </a>
+  {% endif %}
   <div class="citation-text">
     <a href="{{ link }}" class="citation-title">{{ pub.title }}</a>
     <div class="citation-authors">{{ pub.authors }}</div>
