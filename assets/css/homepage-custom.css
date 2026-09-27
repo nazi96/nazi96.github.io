@@ -126,3 +126,12 @@
     flex: 0 0 320px;
   }
 }
+
+/* Let header, content and footer use most of the screen instead of the theme's 1280px cap */
+@media (min-width: 1280px) {
+  .masthead__inner-wrap,
+  #main,
+  .page__footer footer {
+    max-width: min(94vw, 1800px);
+  }
+}
