@@ -9,7 +9,7 @@ redirect_from:
 
 <div class="home-grid">
   <div class="home-col">
-    <img class="home-photo" src="/images/profile.jpg" alt="Portrait of Nazanin Amini">
+    <img class="home-photo" src="/images/profile-photo.jpg" alt="Portrait of Nazanin Amini">
     <p class="home-links">
       <a href="mailto:nazanin.amini@utsa.edu">Email</a> /
       <a href="/files/CV_Nazanin_Amini.pdf">CV</a> /
