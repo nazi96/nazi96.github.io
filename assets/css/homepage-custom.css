@@ -142,3 +142,29 @@
   border: 1px solid var(--global-border-color);
   border-radius: 8px;
 }
+
+/* Link style: plain blue, underline only on hover */
+html:not([data-theme="dark"]) {
+  --global-link-color: #1772d0;
+  --global-link-color-visited: #1772d0;
+  --global-link-color-hover: #0d4f99;
+}
+
+.page__content a,
+.archive a,
+.sidebar a,
+.page__footer a {
+  text-decoration: none;
+}
+
+.page__content a:hover,
+.archive a:hover,
+.sidebar a:hover,
+.page__footer a:hover {
+  text-decoration: underline;
+}
+
+.home-col p {
+  text-align: justify;
+  hyphens: auto;
+}
