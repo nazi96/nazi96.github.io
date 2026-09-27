@@ -13,56 +13,55 @@ redirect_from:
     <p class="home-links">
       <a href="mailto:nazanin.amini@utsa.edu">Email</a> /
       <a href="/files/CV_Nazanin_Amini.pdf">CV</a> /
-      <a href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ">Scholar</a> /
+      <a href="https://scholar.google.com/citations?user=l0W0P1EAAAAJ">Scholar</a> /
       <a href="https://github.com/nazi96">GitHub</a> /
       <a href="https://www.linkedin.com/in/nazanin-amini-2355b5347/">LinkedIn</a>
     </p>
   </div>
   <div class="home-col">
     <p>
-      I am a Ph.D. student in Computer Science at the <a href="https://www.utsa.edu/">University of Texas at San Antonio</a>,
+      I’m a Ph.D. student in Computer Science at the <a href="https://www.utsa.edu/">University of Texas at San Antonio</a>,
       advised by <a href="https://klab.cs.utsa.edu/">Dr. Kevin Desai</a>.
-      My research focuses on generative modeling and vision-language understanding, especially diffusion models,
-      CLIP-style multimodal representations, and controllable generation.
+      I work on generative models that understand and create visual content, with a focus on
+      <strong>diffusion models</strong>, <strong>vision-language representations</strong> such as CLIP,
+      and <strong>controllable image generation</strong>.
     </p>
     <p>
-      Before UTSA, I completed my M.Sc. in Electrical Engineering at
+      My recent work applies these ideas to human motion and appearance.
+      <a href="https://arxiv.org/abs/2607.26304">MoSAIC</a> is a latent diffusion framework that transfers
+      motion style to selected body parts while preserving the rest of the movement.
+      In <a href="https://arxiv.org/abs/2604.15875">Cloth-HUGS</a>, we use Gaussian Splatting to represent the body
+      and clothing as separate layers, producing photorealistic clothed humans that render in real time.
+    </p>
+    <p>
+      Before starting my Ph.D., I earned an M.Sc. in Electrical Engineering from
       <a href="https://shirazu.ac.ir/en">Shiraz University</a>, where my thesis focused on
-      background subtraction for robust video understanding.
+      background subtraction for robust video analysis.
     </p>
     <p>
-      I’m always happy to chat about research, collaborations, and internships.
+      I’m open to research collaborations and internship opportunities, so feel free to reach out by email.
     </p>
   </div>
 </div>
 
 <hr>
 
-## Selected publications
+## Publications
 
 <div class="pub-card">
-  <img class="pub-thumb" src="/images/500x300.png" alt="Visualization for Paper Title Number 4">
   <div class="pub-meta">
-    <p><strong>Paper Title Number 4</strong></p>
-    <p>GitHub Journal of Bugs, 2024</p>
-    <p><a href="/publication/2024-02-17-paper-title-number-4">Project page</a> / <a href="https://academicpages.github.io/files/paper3.pdf">Paper</a></p>
+    <p><strong>MoSAIC: Aligned Intervention Supervision for Part-Local Motion Style Transfer</strong></p>
+    <p><strong>Nazanin Amini</strong>, Kevin Desai</p>
+    <p><em>arXiv preprint</em>, 2026</p>
+    <p><a href="https://arxiv.org/abs/2607.26304">arXiv</a> / <a href="https://arxiv.org/pdf/2607.26304">PDF</a></p>
   </div>
 </div>
 
 <div class="pub-card">
-  <img class="pub-thumb" src="/images/editing-talk.png" alt="Talk slide image for Paper Title Number 3">
   <div class="pub-meta">
-    <p><strong>Paper Title Number 3</strong></p>
-    <p>Journal 1, 2015</p>
-    <p><a href="/publication/2015-10-01-paper-title-number-3">Project page</a> / <a href="https://academicpages.github.io/files/paper3.pdf">Paper</a></p>
-  </div>
-</div>
-
-<div class="pub-card">
-  <img class="pub-thumb" src="/images/bio-photo.jpg" alt="Illustrative placeholder image for Paper Title Number 2">
-  <div class="pub-meta">
-    <p><strong>Paper Title Number 2</strong></p>
-    <p>Journal 1, 2010</p>
-    <p><a href="/publication/2010-10-01-paper-title-number-2">Project page</a> / <a href="https://academicpages.github.io/files/paper2.pdf">Paper</a></p>
+    <p><strong>CLOTH-HUGS: Cloth Aware Human Gaussian Splatting</strong></p>
+    <p>Sadia Mubashshira, <strong>Nazanin Amini</strong>, Kevin Desai</p>
+    <p><em>arXiv preprint</em>, 2026</p>
+    <p><a href="https://arxiv.org/abs/2604.15875">arXiv</a> / <a href="https://arxiv.org/pdf/2604.15875">PDF</a></p>
   </div>
 </div>
